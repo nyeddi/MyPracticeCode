@@ -1,0 +1,7 @@
+hello Notepad .. uses this file.
+Some test
+This is class of python
+This is class of pythonThis is class of python
+This is class of python
+This is class of python
+This is class of python

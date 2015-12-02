@@ -1,0 +1,15 @@
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+INFO:root:So should this
+WARNING:root:And this, too
+2014-12-10 07:48:02,082 So should this
+2014-12-10 07:48:02,082 And this, too
+2014-12-10 07:49:34,107 - So should this
+2014-12-10 07:49:34,107 - And this, too
+12/10/2014 07:52:11 AM - So should this
+12/10/2014 07:52:11 AM - And this, too
+12/11/2014 07:19:35 AM - So should this
+12/11/2014 07:19:35 AM - And this, too
+12/11/2014 07:20:40 AM - So should this
+12/11/2014 07:20:40 AM - And this, too

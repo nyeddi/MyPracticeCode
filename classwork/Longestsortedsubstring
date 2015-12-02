@@ -1,0 +1,9 @@
+s = 'azcbobobegghakl'
+mystr = {}
+for index in range(len(s)):
+  for ind2 in range(index+1,len(s)):
+     if s[index:ind2] == ''.join(sorted(s[index:ind2])):
+         mystr[s[index:ind2]] = len(s[index:ind2])
+     else:
+         break
+print mystr

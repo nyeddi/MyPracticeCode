@@ -1,0 +1,4 @@
+INFO:root:Started
+INFO:root:Doing something
+ERROR:root:Doing something mpore we got error
+INFO:root:Finished
