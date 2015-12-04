@@ -26,3 +26,7 @@ Hello
 ******************************
 >>> 
 '''
+def printer1(msg):
+    print(msg)
+printer1 = star(percent(printer1))
+printer1("hello")
