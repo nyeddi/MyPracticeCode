@@ -17,6 +17,8 @@ class LeftSubclass(BaseClass):
     super(LeftSubclass,self).call_me()
     print("Calling method on Left Subclass")
     self.num_left_calls += 1
+  def hello(self):
+    print "hello in LF"
 
 class RightSubclass(BaseClass):
   num_right_calls = 0
@@ -27,6 +29,8 @@ class RightSubclass(BaseClass):
     super(RightSubclass,self).call_me()
     print("Calling method on Right Subclass")
     self.num_right_calls += 1
+  def hello(self):
+    print "hello in RF"
 
 class Subclass(LeftSubclass, RightSubclass):
   num_sub_calls = 0
@@ -102,4 +106,5 @@ q1.f(10)
 #c1 = ChildC()
 s1 =  Subclass()
 print Subclass.mro()
+s1.hello()
 s1.call_me()
